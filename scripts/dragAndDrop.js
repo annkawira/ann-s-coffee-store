@@ -5,6 +5,16 @@ function addDragAndDropHandlers(){
 
     let shoppingCart=document.querySelectorAll("#shoppingcart ul")[0];
 
+    let cart=(function(){
+        this.coffees=new Array();
+    });
+
+    let coffee=(function(id,price){
+        this.coffeeId=id;
+        this.price=price;
+    });
+
+    let currentCart=null;
     for(let i=0;i<coffeeImages.length;i++){
         coffeeImages[i].addEventListener("dragstart",function(){
             ev.dataTransfer.effectAllowed='copy';
@@ -37,8 +47,5 @@ function addCoffeeToShoppingCart(item,id){
     let liElement =document.createElement('li');
     liElement.innerHtml=html;
     shopping.appendchild(liElement);
-
-
-    
-}
+  }
 }

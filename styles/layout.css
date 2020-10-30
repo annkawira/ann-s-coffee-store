@@ -1,0 +1,49 @@
+body{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    
+}
+header{
+    font-weight: bold;
+}
+.headerlogo{
+    float: left;
+    margin-right: 60px;
+}
+.headerlogo>img{
+    height: 60px;
+    width: 60px;
+}
+#mainheader{
+    height: 80px;
+}
+.searchbox{
+    float: right;
+    padding:10px;
+    margin: 15px 15px;
+    width: 200px;
+}
+#welcomeimage{
+     float: left;
+     width: 700px;
+}
+#freecoffeemonth{
+    float:right;
+    width:300px;
+}
+#welcometext{
+    float: left;
+    width: 600px;
+    font-size: 12px;
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+#welcometext>header{
+    font-weight: bold;
+    color:rosybrown;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
